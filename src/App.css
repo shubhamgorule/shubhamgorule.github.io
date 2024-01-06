@@ -1,0 +1,10 @@
+.background-img {
+  background-image: url("./assets/construction.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homepage {
+  height: 100vh;
+  width: 100vw;
+}
