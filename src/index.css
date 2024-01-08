@@ -1,14 +1,14 @@
 @font-face {
-  font-family: "ClashDisplay";
+  font-family: "Clash Display Variable";
   src: url("./fonts/ClashDisplay-Variable.ttf");
 }
 @font-face {
-  font-family: "PlusJakartaSans";
+  font-family: "Plus Jakarta Sans";
   src: url("./fonts/PlusJakartaSans-Regular.ttf");
 }
 body {
   margin: 0;
-  font-family: "ClashDisplay";
+  font-family: Clash Display Variable;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
