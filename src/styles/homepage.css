@@ -1,0 +1,49 @@
+.home-bg {
+  width: 100%;
+  flex-shrink: 0;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+
+  /* background: url("../assets/images/rectangle-3.svg"),
+    lightgray 50% / contain no-repeat;
+  mix-blend-mode: lighten; */
+}
+
+.title {
+  color: #fff;
+  font-family: "ClashDisplay";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 75% */
+  letter-spacing: 0.96px;
+}
+.subtitle {
+  width: 600px;
+  color: #ccc;
+  text-align: center;
+  font-family: "PlusJakartaSans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 180% */
+  letter-spacing: 0.4px;
+}
+.title-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 100px;
+}
+.profile-img {
+  width: 200px;
+  height: 200px;
+  flex-shrink: 0;
+  background: url("../assets/images/img-02111.png"),
+    lightgray -15.182px -13.358px / 181% 120.681% no-repeat;
+  border-radius: 50%;
+}

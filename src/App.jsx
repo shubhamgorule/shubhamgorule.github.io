@@ -1,8 +1,20 @@
-import logo from "./logo.svg";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import under_work from "./assets/construction.svg";
+import "./styles/scrollbar.css";
+import "./styles/navbar.css";
+import "./styles/homepage.css";
+
+import Homepage from "./pages/Homepage";
+import WIP from "./pages/WIP";
 function App() {
-  return <div className="App background-img homepage"></div>;
+  return (
+    <div className="homepage">
+      <Routes>
+        <Route path="/" element={<WIP />} />
+        <Route path="/home" element={<Homepage />} />
+      </Routes>
+    </div>
+  );
 }
 
 export default App;

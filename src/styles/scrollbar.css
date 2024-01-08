@@ -1,0 +1,17 @@
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: skyblue;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: lightblue;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}

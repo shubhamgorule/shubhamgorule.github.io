@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  padding: 16px 64px;
+  align-items: flex-start;
+  gap: 80px;
+  background: #040404;
+  backdrop-filter: blur(16px);
+  max-width: 100%;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
+.nav-button {
+  color: #fff;
+  text-align: center;
+  font-family: Clash Display Variable;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.4px;
+  cursor: pointer;
+}
