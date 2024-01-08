@@ -1,16 +1,16 @@
-.navbar {
+.navigation-bar {
   display: flex;
   padding: 16px 64px;
-  align-items: flex-start;
   gap: 80px;
   background: #040404;
   backdrop-filter: blur(16px);
   max-width: 100%;
-  justify-content: center;
+  justify-content: space-around;
   position: sticky;
   top: 0;
+  /* border: 1px solid red; */
 }
-.nav-button {
+.navigation-button {
   color: #fff;
   text-align: center;
   font-family: Clash Display Variable;
