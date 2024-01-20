@@ -1,0 +1,219 @@
+.case-study-page {
+  display: flex;
+  padding: 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 320px;
+  background: #0b0c0d;
+}
+
+.case-study-title {
+  color: #fff;
+  /* Display */
+  font-family: "Clash Display Variable";
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.case-study-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.case-study-img {
+  background-image: url("../assets/images/studyease.svg"),
+    lightgray 119.661px -179.508px / 76.7% 140.816% no-repeat;
+  display: flex;
+  height: 640px;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  border-radius: 24px;
+  background: linear-gradient(180deg, #237aeb 0%, #175099 100%);
+  margin-top: 96px;
+  width: 100%;
+}
+.background-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 96px;
+  align-self: stretch;
+}
+.background-section-title {
+  color: #fff;
+
+  /* Title */
+  font-family: "Clash Display Variable";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.64px;
+}
+.frame51 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+}
+.frame49 {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+  width: 100%;
+}
+.medium-text {
+  color: #999;
+  /* Body */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.16px;
+}
+.value-text {
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-weight: 500;
+}
+.frame50 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+.frame87 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+.icon-size {
+  width: 56px;
+  height: 56px;
+}
+.icon-label {
+  color: #fff;
+  /* Body */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.16px;
+  font-style: normal;
+  text-decoration: none;
+}
+.frame69 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+.background-section-text-content {
+  color: #fff;
+
+  /* Body */
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.16px;
+}
+.frame84 {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.frame60 {
+  height: 314px;
+  align-self: stretch;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.heading2 {
+  color: #fff;
+
+  /* Heading 2 */
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.frame62 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+  align-self: stretch;
+}
+.extra-large-text {
+  color: #1a1a1a;
+
+  /* Extra large text */
+  font-family: "Clash Display Variable";
+  font-size: 160px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.frame112 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
+}
+.frame94 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.frame90 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.pointer-icon {
+  width: 24px;
+  height: 24px;
+}
+.frame95 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.research-card {
+  display: flex;
+  padding: 16px 24px 24px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 24px;
+  background: #14171a;
+}
+.frame96 {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}

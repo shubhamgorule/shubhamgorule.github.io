@@ -3,17 +3,16 @@
   src: url("./fonts/ClashDisplay-Variable.ttf");
 }
 @font-face {
-  font-family: "Plus Jakarta Sans";
-  src: url("./fonts/PlusJakartaSans-Regular.ttf");
+  font-family: "DM Sans";
+  src: url("./fonts/DMSans-VariableFont_opsz\,wght.ttf");
 }
 body {
   margin: 0;
-  font-family: Clash Display Variable;
+  font-family: "DM Sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: "DM Sans";
 }

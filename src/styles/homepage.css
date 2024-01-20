@@ -4,10 +4,10 @@
   background: black;
   display: flex;
   flex-direction: column;
-
-  /* background: url("../assets/images/rectangle-3.svg"),
-    lightgray 50% / contain no-repeat;
-  mix-blend-mode: lighten; */
+  background-image: url("../assets/background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title {

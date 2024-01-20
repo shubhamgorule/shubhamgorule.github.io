@@ -1,0 +1,55 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Google logo" clip-path="url(#clip0_93_72)">
+<g id="Page-1">
+<g id="Consumer-Apps-Sheets-Large-VD-R8-">
+<g id="Hero">
+<g id="Personal">
+<g id="Sheets-icon">
+<g id="Group_1_">
+<g id="Clipped">
+<path id="Path" d="M33.0883 0.00201416H11.4583C9.3583 0.00201416 7.64111 1.73014 7.64111 3.82905V52.1837C7.64111 54.2837 9.3583 56.0009 11.4583 56.0009H44.5366C46.6366 56.0009 48.3538 54.2837 48.3538 52.1837V15.2784L39.4419 8.91498L33.0883 0.00201416Z" fill="#0F9D58"/>
+</g>
+<g id="Clipped_1_">
+<path id="Shape" d="M17.8228 27.3611V45.8192H38.184V27.3611H17.8228ZM26.7248 43.2719H20.3613V40.0901H26.7248V43.2719ZM26.7248 38.1761H20.3613V34.9944H26.7248V38.1761ZM26.7248 33.0912H20.3613V29.9095H26.7248V33.0912ZM35.6367 43.2719H29.2721V40.0901H35.6356V43.2719H35.6367ZM35.6367 38.1761H29.2721V34.9944H35.6356V38.1761H35.6367ZM35.6367 33.0912H29.2721V29.9095H35.6356V33.0912H35.6367Z" fill="#F1F1F1"/>
+</g>
+<g id="Clipped_2_">
+<path id="Path_1_" d="M34.2041 14.1628L48.3539 28.3126V15.2784L34.2041 14.1628Z" fill="url(#paint0_linear_93_72)"/>
+</g>
+<g id="Clipped_3_">
+<g id="Group">
+<g id="Group_2">
+<path id="Path_2_" d="M33.0908 0.0065918V11.456C33.0908 13.5658 34.7971 15.2732 36.908 15.2732H48.3563L33.0908 0.0065918Z" fill="#87CEAC"/>
+</g>
+</g>
+</g>
+<g id="Clipped_4_">
+<path id="Path_3_" d="M11.4583 0.00200928C9.3583 0.00200928 7.64111 1.73013 7.64111 3.82904V4.14623C7.64111 2.04623 9.3583 0.329041 11.4583 0.329041H33.0883V0.000915527H11.4583V0.00200928Z" fill="white" fill-opacity="0.2"/>
+</g>
+<g id="Clipped_5_">
+<path id="Path_4_" d="M44.5377 55.6717H11.4583C9.3583 55.6717 7.64111 53.9545 7.64111 51.8545V52.1717C7.64111 54.2717 9.3583 55.9889 11.4583 55.9889H44.5366C46.6366 55.9889 48.3538 54.2717 48.3538 52.1717V51.8545C48.3538 53.9556 46.6366 55.6717 44.5377 55.6717Z" fill="#263238" fill-opacity="0.2"/>
+</g>
+<g id="Clipped_6_">
+<path id="Path_5_" d="M36.9056 15.2784C34.7957 15.2784 33.0884 13.5722 33.0884 11.4612V11.7784C33.0884 13.8883 34.7946 15.5956 36.9056 15.5956H48.3538V15.2784H36.9056Z" fill="#263238" fill-opacity="0.1"/>
+</g>
+</g>
+<path id="Path_6_" d="M33.0883 0.00201416H11.4583C9.3583 0.00201416 7.64111 1.73014 7.64111 3.82905V52.1837C7.64111 54.2837 9.3583 56.0009 11.4583 56.0009H44.5366C46.6366 56.0009 48.3538 54.2837 48.3538 52.1837V15.2784L33.0883 0.00201416Z" fill="url(#paint1_radial_93_72)"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_93_72" x1="41.2788" y1="15.3759" x2="41.2788" y2="28.3124" gradientUnits="userSpaceOnUse">
+<stop stop-color="#263238" stop-opacity="0.2"/>
+<stop offset="1" stop-color="#263238" stop-opacity="0.02"/>
+</linearGradient>
+<radialGradient id="paint1_radial_93_72" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(8.93082 1.52555) scale(65.6605 65.6605)">
+<stop stop-color="white" stop-opacity="0.1"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</radialGradient>
+<clipPath id="clip0_93_72">
+<rect width="56" height="56" fill="white"/>
+</clipPath>
+</defs>
+</svg>
