@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.8dfaccdf.css",
-    "main.js": "/static/js/main.985a6fa3.js",
+    "main.css": "/static/css/main.1fbecf4e.css",
+    "main.js": "/static/js/main.59023a30.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/background.svg": "/static/media/background.9708fa98de5b70eeae66.svg",
+    "static/media/profile.svg": "/static/media/profile.21a42a2cdc2cc7ac75cbc35cc2bf91fd.svg",
     "static/media/construction.svg": "/static/media/construction.dc22fe7c8a0096bdbbcc.svg",
     "static/media/studyease.svg": "/static/media/studyease.caddece7734ec1775e73.svg",
     "static/media/DMSans-VariableFont_opsz,wght.ttf": "/static/media/DMSans-VariableFont_opsz,wght.90130db6a4fc53f17a88.ttf",
@@ -22,12 +23,12 @@
     "static/media/zoom.svg": "/static/media/zoom.844c1e4fac1f5a97c81b6a9b67aeed75.svg",
     "static/media/solar_golf-bold-duotone.svg": "/static/media/solar_golf-bold-duotone.c6f3d5715e0971e3176a1931a8ac3c6a.svg",
     "index.html": "/index.html",
-    "main.8dfaccdf.css.map": "/static/css/main.8dfaccdf.css.map",
-    "main.985a6fa3.js.map": "/static/js/main.985a6fa3.js.map",
+    "main.1fbecf4e.css.map": "/static/css/main.1fbecf4e.css.map",
+    "main.59023a30.js.map": "/static/js/main.59023a30.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8dfaccdf.css",
-    "static/js/main.985a6fa3.js"
+    "static/css/main.1fbecf4e.css",
+    "static/js/main.59023a30.js"
   ]
 }
