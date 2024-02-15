@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import itmis from "../assets/images/MIS.png";
 const ProjectSection = () => {
   return (
-    <div>
+    <div id="projects">
       <div className="project-header-container">
         <div className="project-header">Project</div>
       </div>

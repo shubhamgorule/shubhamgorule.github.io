@@ -87,34 +87,9 @@
   line-height: normal;
   letter-spacing: 0.32px;
 }
-.view-project-button {
-  border-radius: 12px;
-  border-bottom: 0.5px solid rgba(255, 255, 255, 0.2);
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(32px);
-  display: flex;
-  width: 200px;
-  padding: 12px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  color: #fff;
-  text-align: center;
-  font-family: Clash Display Variable;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  letter-spacing: 0.32px;
-}
 .project-card:hover {
   border-radius: 24px;
   border-bottom: 0.25px solid #fff;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(32px);
-  cursor: pointer;
-  .view-project-button {
-    border-radius: 12px;
-    background: #db8229;
-    backdrop-filter: blur(32px);
-  }
 }
