@@ -10,6 +10,8 @@ import { ReactComponent as Task } from "../assets/icons/solar_clipboard-list-bol
 import goalsetting from "../assets/images/Frame82.png";
 import academicresource from "../assets/images/Frame83.png";
 import senseofcommunity from "../assets/images/Frame84.png";
+import LargeNumber from "./LargeNumber";
+import SectionTitle from "./SectionTitle";
 const CaseStudy = () => {
   return (
     <div className="case-study-page">
@@ -120,16 +122,15 @@ const CaseStudy = () => {
       <div className="frame62">
         <div>
           <div className="frame112">
-            <div className="extra-large-text">01</div>
-            <div className="background-section-title">
-              Understand and Define
-            </div>
+            <LargeNumber number={"01"} />
+            <SectionTitle title={" Understand and Define"} />
           </div>
           <div className="background-section-text-content">
             Solving the right problem was an essential step. During this phase
-            of the project we conducted user research for two personas and
-            boiled down the insights into 8 key tasks.
+            of the project we conducted user research for <b>2 personas</b> and
+            boiled down the insights into <b>8 key tasks.</b>
           </div>
+          <div className="background-section-text-content"></div>
         </div>
         <div className="frame94">
           <div className="frame90">
@@ -245,8 +246,8 @@ const CaseStudy = () => {
       <div className="frame62">
         <div>
           <div className="frame112">
-            <div className="extra-large-text">02</div>
-            <div className="background-section-title">The First Iteration</div>
+            <LargeNumber number={"02"} />
+            <SectionTitle title={"The First Iteration"} />
           </div>
           <div className="background-section-text-content">
             After we got meaningful insights from the research, it was time to
@@ -254,16 +255,15 @@ const CaseStudy = () => {
             We started brainstorming keeping in mind the user tasks and user
             scenarios
           </div>
+          <div className="background-section-text-content"></div>
         </div>
         <div className="frame60"></div>
       </div>
       <div className="frame62">
         <div>
           <div className="frame112">
-            <div className="extra-large-text">03</div>
-            <div className="background-section-title">
-              Expert Usability Testing
-            </div>
+            <LargeNumber number={"03"} />
+            <SectionTitle title={"Expert Usability Testing"} />
           </div>
           <div className="background-section-text-content">
             5 Step iterative design process was selected where we focused
@@ -275,10 +275,8 @@ const CaseStudy = () => {
       <div className="frame62">
         <div>
           <div className="frame112">
-            <div className="extra-large-text">04</div>
-            <div className="background-section-title">
-              Structured Usability Testing
-            </div>
+            <LargeNumber number={"04"} />
+            <SectionTitle title={"Structured Usability Testing"} />
           </div>
           <div className="background-section-text-content">
             5 Step iterative design process was selected where we focused
@@ -290,8 +288,8 @@ const CaseStudy = () => {
       <div className="frame62">
         <div>
           <div className="frame112">
-            <div className="extra-large-text">05</div>
-            <div className="background-section-title">Final Design</div>
+            <LargeNumber number={"05"} />
+            <SectionTitle title={"Final Design"} />
           </div>
           <div className="background-section-text-content">
             5 Step iterative design process was selected where we focused
@@ -303,12 +301,9 @@ const CaseStudy = () => {
       <div className="frame62">
         <div>
           <div className="frame112">
-            <div className="extra-large-text">06</div>
-            <div className="background-section-title">Prototype</div>
-          </div>
-          <div className="background-section-text-content">
-            5 Step iterative design process was selected where we focused
-            intensively on Testing and redesigning as per insights
+            {" "}
+            <LargeNumber number={"06"} />
+            <SectionTitle title={"Prototype"} />
           </div>
         </div>
         <div className="frame60"></div>

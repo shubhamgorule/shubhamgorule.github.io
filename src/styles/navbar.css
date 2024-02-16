@@ -4,11 +4,12 @@
   gap: 80px;
   background: #040404;
   backdrop-filter: blur(16px);
-  max-width: 70%;
+  width: 100%;
   justify-content: space-around;
   position: sticky;
   top: 0;
   margin: auto;
+  z-index: 11;
   /* border: 1px solid red; */
 }
 .navigation-button {
