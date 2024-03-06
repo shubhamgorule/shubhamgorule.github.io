@@ -1,0 +1,67 @@
+.testimo-card {
+  display: flex;
+  padding: 42px 37px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+  flex: 1 0 0;
+  border-radius: 48px;
+  background: #f2f5f7;
+}
+.quote-icon {
+  width: 96px;
+  height: 96px;
+  color: white;
+}
+
+.testimo-name-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+}
+.testimo-name {
+  color: #1a1a1a;
+
+  text-align: center;
+  font-family: Figtree;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.testimo-desc {
+  color: #1a1a1a;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px; /* 131.25% */
+}
+.testimo-desig {
+  color: #666;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.testi-avatar-img {
+  width: 64px;
+  height: 64px;
+  border-radius: 200px;
+}
+.testimo-name-card-cont {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.testimo-cont {
+  display: flex;
+  align-items: flex-start;
+  gap: 44px;
+  align-self: stretch;
+}

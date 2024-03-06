@@ -1,42 +1,37 @@
 .home-bg {
   width: 100%;
   flex-shrink: 0;
-  background: black;
   display: flex;
   flex-direction: column;
-  background-image: url("../assets/background.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .title {
-  color: #fff;
-  font-family: Clash Display Variable;
+  font-family: Figtree;
+  color: #000;
   font-size: 48px;
   font-style: normal;
-  font-weight: 600;
-  line-height: 36px; /* 75% */
-  letter-spacing: 0.96px;
+  font-weight: 500;
+  line-height: normal;
 }
 .subtitle {
-  width: 600px;
-  color: #ccc;
-  text-align: center;
-  font-family: "PlusJakartaSans";
-  font-size: 20px;
+  color: #666;
+  font-family: Figtree;
+  font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 36px; /* 180% */
-  letter-spacing: 0.4px;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: 0.36px;
+  max-width: 980px;
 }
 .title-box {
   display: flex;
+  /* height: 100vh; */
+  padding: 80px;
+  padding-top: 150px;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  height: 100vh;
+  align-items: start;
+  align-self: stretch;
+  gap: 200px;
 }
 .profile-img {
   width: 200px;
@@ -45,4 +40,30 @@
   background: url("../assets/images/img-02111.png"),
     lightgray -15.182px -13.358px / 181% 120.681% no-repeat;
   border-radius: 50%;
+}
+
+.skill-card {
+  display: flex;
+  height: 220px;
+  padding: 24px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-radius: 48px;
+  background: #f2f5f7;
+  width: 180px;
+}
+.skill-title {
+  color: #666;
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.skill-icon {
+  width: 96px;
+  height: 96px;
+  flex-shrink: 0;
 }

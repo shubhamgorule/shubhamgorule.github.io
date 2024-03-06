@@ -1,50 +1,35 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import itmis from "../assets/images/MIS.png";
+import itmis from "../assets/images/Frame26085534.png";
+import studyEz from "../assets/images/Frame260855341.png";
 const ProjectSection = () => {
   return (
-    <div id="projects">
-      <div className="project-header-container">
-        <div className="project-header">Project</div>
-      </div>
-      <div className="project-card-container">
-        <ProjectCard
-          image={itmis}
-          title={"IT-MIS Dashboard"}
-          subtitle={"Business Dashboard"}
-          content={
-            "I help Transform Ideas into Engaging Digital Experiences with Precision and Creativity"
-          }
-          path="/project/it-mis"
-        />
-        <ProjectCard
-          image={itmis}
-          title={"Dashboard"}
-          subtitle={" Dashboard"}
-          content={
-            "I help Transform Ideas into Engaging Digital Experiences with Precision and Creativity"
-          }
-          path="/project/it-mis"
-        />
-        <ProjectCard
-          image={itmis}
-          title={"IT-MIS Dashboard"}
-          subtitle={"Business Dashboard"}
-          content={
-            "I help Transform Ideas into Engaging Digital Experiences with Precision and Creativity"
-          }
-          path="/project/it-mis"
-        />
-        <ProjectCard
-          image={itmis}
-          title={"IT-MIS Dashboard"}
-          subtitle={"Business Dashboard"}
-          content={
-            "I help Transform Ideas into Engaging Digital Experiences with Precision and Creativity"
-          }
-          path="/project/it-mis"
-        />
-      </div>
+    <div id="projects" className="project-card-container">
+      <div className="project-header">My Project</div>
+      <ProjectCard
+        image={itmis}
+        title="Redesign of IT-MIS Dashboard"
+        tags={[
+          "User Research",
+          "UX Strategy",
+          "Visual Design",
+          "User Testing",
+          "Evaluation",
+        ]}
+        content="Short Description of the Project"
+      />
+      <ProjectCard
+        image={studyEz}
+        title="Study Ez"
+        tags={[
+          "User Research",
+          "Expert Usability Testing",
+          "Visual Design",
+          "Interaction Design",
+          "Structured Usability Testing",
+        ]}
+        content="Short Description of the Project"
+      />
     </div>
   );
 };

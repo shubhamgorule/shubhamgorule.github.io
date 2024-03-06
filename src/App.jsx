@@ -5,6 +5,7 @@ import "./styles/navbar.css";
 import "./styles/homepage.css";
 import "./styles/projectsection.css";
 import "./styles/casestudy.css";
+import "./styles/testimonial.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Homepage from "./pages/Homepage";
 import WIP from "./pages/WIP";
@@ -54,11 +55,11 @@ function App() {
 
   return (
     <div className="homepage">
-      <motion.div
+      {/* <motion.div
         className="cursor"
         variants={variants}
         animate={cursorVariant}
-      />
+      /> */}
       {/* <div
         className="cursor"
         style={{
@@ -67,7 +68,7 @@ function App() {
         }}
       ></div> */}
       <Routes>
-        <Route path="/" element={<WIP />} />
+        <Route path="/" element={<Homepage />} />
         <Route path="/home" element={<Homepage />} />
         <Route path="/project/it-mis" element={<CaseStudy />} />
       </Routes>

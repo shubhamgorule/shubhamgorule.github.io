@@ -9,7 +9,6 @@
   height: 100vh;
   font-family: Clash Display Variable;
   font-style: normal;
-  color: #fff;
 }
 .cursor {
   background-color: #fff;
@@ -25,6 +24,6 @@
   transition: 0.1s;
   transform: translate(-50%, -50%);
 }
-* {
+/* * {
   cursor: none;
-}
+} */

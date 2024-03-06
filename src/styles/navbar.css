@@ -1,24 +1,33 @@
 .navigation-bar {
-  display: flex;
-  padding: 16px 64px;
-  gap: 80px;
-  background: #040404;
-  backdrop-filter: blur(16px);
-  width: 100%;
-  justify-content: space-around;
   position: sticky;
-  top: 0;
+  top: 24px;
   margin: auto;
-  z-index: 11;
+  margin-top: 24px;
+  width: max-content;
+  height: 48px;
+  border-radius: 48px;
+  background: rgba(224.4, 255, 102, 1);
+  display: flex;
+  gap: 40;
+  padding: 4px 4px 4px 16px;
+  align-items: center;
+  z-index: 10;
+
   /* border: 1px solid red; */
 }
 .navigation-button {
-  color: #fff;
-  text-align: center;
-  font-family: Clash Display Variable;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.4px;
+  display: flex;
+  padding: 8px 24px;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  font-weight: 500;
+}
+.navigation-button:active {
+  border-radius: 60px;
+  background: #fff;
+}
+
+.navigation-button:hover {
+  cursor: pointer;
 }

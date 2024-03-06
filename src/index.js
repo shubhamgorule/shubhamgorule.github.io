@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
 import "./fonts/ClashDisplay-Variable.ttf";
 import "./fonts/DMSans-VariableFont_opsz,wght.ttf";
+import "./fonts/Figtree-VariableFont_wght.ttf";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>

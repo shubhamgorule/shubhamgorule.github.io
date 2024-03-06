@@ -1,22 +1,23 @@
 import React from "react";
 import { Link } from "react-scroll";
-
+import bulb from "../assets/images/istockphoto-1458606797-1024x1024 1.png";
 const Navbar = () => {
   return (
-    <div className="navigation-bar">
-      <div className="d-flex gap-4">
+    <div className="w-100">
+      <div className="navigation-bar">
+        <div className="navigation-button">Projects</div>
+        <div className="navigation-button">About</div>
         <div className="navigation-button">Connect</div>
-        <Link
-          to="about"
-          smooth={true}
-          duration={1000}
-          spy={true}
-          hashSpy={true}
-          activeClass="active"
-        >
-          <div className="navigation-button">Projects</div>
-        </Link>
-        <div className="navigation-button">About Me</div>
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          right: "0px",
+          top: "0px",
+          zIndex: -1,
+        }}
+      >
+        <img src={bulb} alt="" />
       </div>
     </div>
   );

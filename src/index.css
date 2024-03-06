@@ -6,6 +6,10 @@
   font-family: "DM Sans";
   src: url("./fonts/DMSans-VariableFont_opsz\,wght.ttf");
 }
+@font-face {
+  font-family: "Figtree";
+  src: url("./fonts/Figtree-VariableFont_wght.ttf");
+}
 body {
   margin: 0;
   font-family: "DM Sans";

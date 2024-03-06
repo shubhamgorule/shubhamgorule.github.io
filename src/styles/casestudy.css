@@ -3,7 +3,7 @@
   padding: 80px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 320px;
+  gap: 120px;
   background: #0b0c0d;
 }
 
@@ -26,8 +26,6 @@
 }
 
 .case-study-img {
-  background-image: url("../assets/images/studyease.svg"),
-    lightgray 119.661px -179.508px / 76.7% 140.816% no-repeat;
   display: flex;
   height: 640px;
   justify-content: center;
@@ -74,8 +72,8 @@
   color: #999;
   /* Body */
   font-family: "DM Sans";
-  font-size: 16px;
-  font-weight: 300;
+  /* font-size: 16px; */
+  /* font-weight: 300; */
   line-height: 24px; /* 150% */
   letter-spacing: 0.16px;
 }
@@ -143,7 +141,9 @@
   height: 314px;
   align-self: stretch;
   border-radius: 24px;
-  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  gap: 32px;
+  /* background: rgba(255, 255, 255, 0.2); */
 }
 .heading2 {
   color: #fff;
@@ -163,7 +163,7 @@
   align-self: stretch;
 }
 .extra-large-text {
-  color: #1a1a1a;
+  color: #3b3b3b;
 
   /* Extra large text */
   font-family: "Clash Display Variable";
@@ -184,6 +184,14 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 12px;
+}
+.frame94-2 {
+  display: flex;
+  padding: 16px 24px 24px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1 0 0;
 }
 .frame90 {
   display: flex;
@@ -216,4 +224,133 @@
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
+}
+
+.frame-goals {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 16px 24px 24px;
+  position: relative;
+  background-color: #1e2125;
+  border-radius: 24px;
+}
+
+.frame-goals .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  color: #666666;
+  font-size: 32px;
+  font-family: "Clash Display Variable";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.64px;
+}
+
+.frame-goals .div {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--heading-3-font-family);
+  font-weight: var(--heading-3-font-weight);
+  color: #ffffff;
+  font-size: var(--heading-3-font-size);
+  letter-spacing: var(--heading-3-letter-spacing);
+  line-height: var(--heading-3-line-height);
+  font-style: var(--heading-3-font-style);
+}
+
+.frame-brain {
+  display: flex;
+  align-items: flex-start;
+  gap: 64px;
+  position: relative;
+  padding: 80px 0px;
+}
+
+.frame-brain .div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 24px;
+}
+
+.frame-brain .div-2 {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.frame-brain .solar-black-hole {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+
+.frame-brain .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--heading-2-font-family);
+  font-weight: var(--heading-2-font-weight);
+  color: #ffffff;
+  font-size: var(--heading-2-font-size);
+  letter-spacing: var(--heading-2-letter-spacing);
+  line-height: var(--heading-2-line-height);
+  font-style: var(--heading-2-font-style);
+}
+
+.frame-brain .taking-into-account {
+  position: relative;
+  align-self: stretch;
+  font-family: "DM Sans-Light", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 16px;
+  letter-spacing: 0.16px;
+  line-height: 24px;
+}
+
+.frame-brain .span {
+  font-weight: var(--body-font-weight);
+  color: #999999;
+  letter-spacing: var(--body-letter-spacing);
+  font-family: var(--body-font-family);
+  font-style: var(--body-font-style);
+  line-height: var(--body-line-height);
+  font-size: var(--body-font-size);
+}
+
+.frame-brain .text-wrapper-2 {
+  font-family: "DM Sans-Bold", Helvetica;
+  /* font-weight: 700; */
+  color: #ffffff;
+  letter-spacing: 0.03px;
+}
+
+.frame-brain .div-3 {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 314px;
+  background-color: #ffffff33;
+  border-radius: 24px;
+}
+
+.ideation-imges {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.ideation-imges > img {
+  width: 100%;
 }
