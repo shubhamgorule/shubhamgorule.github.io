@@ -3,22 +3,40 @@ import { Link } from "react-scroll";
 import bulb from "../assets/images/istockphoto-1458606797-1024x1024 1.png";
 const Navbar = () => {
   return (
-    <div className="w-100">
-      <div className="navigation-bar">
-        <div className="navigation-button">Projects</div>
-        <div className="navigation-button">About</div>
-        <div className="navigation-button">Connect</div>
-      </div>
-      <div
-        style={{
-          position: "absolute",
-          right: "0px",
-          top: "0px",
-          zIndex: -1,
-        }}
+    <div className="navigation-bar">
+      <Link
+        className="navigation-button"
+        to="projects"
+        smooth={true}
+        duration={500}
+        spy={true}
+        hashSpy={true}
+        activeClass="navigation-button-active"
       >
-        <img src={bulb} alt="" />
-      </div>
+        Projects
+      </Link>
+      <Link
+        className="navigation-button"
+        to="about"
+        smooth={true}
+        duration={500}
+        spy={true}
+        hashSpy={true}
+        activeClass="navigation-button-active"
+      >
+        About
+      </Link>{" "}
+      <Link
+        className="navigation-button"
+        to="hero"
+        smooth={true}
+        duration={500}
+        spy={true}
+        hashSpy={true}
+        activeClass="navigation-button-active"
+      >
+        Connect
+      </Link>
     </div>
   );
 };

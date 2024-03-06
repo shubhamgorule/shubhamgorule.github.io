@@ -8,7 +8,7 @@ import { ReactComponent as Interact } from "../assets/icons/Component 48 (4).svg
 import { ReactComponent as Visual } from "../assets/icons/Component 48 (5).svg";
 const Profile = () => {
   return (
-    <div className="title-box">
+    <div className="title-box" id="hero">
       <div className="d-flex flex-column gap-5">
         <div className="title">Hey! I'm Shubham Gorule</div>
         <div className="subtitle">

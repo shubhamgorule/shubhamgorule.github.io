@@ -3,7 +3,7 @@ import TestimonialCard from "./TestimonialCard";
 import avatar from "../assets/images/Frame26085537.png";
 const Testimonial = () => {
   return (
-    <div id="projects" className="project-card-container">
+    <div id="about" className="project-card-container">
       <div className="project-header">Testimonials</div>
       <div className="testimo-cont">
         <TestimonialCard
