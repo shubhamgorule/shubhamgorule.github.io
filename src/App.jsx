@@ -13,6 +13,7 @@ import CaseStudy from "./components/CaseStudy";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import profile from "./assets/profile.svg";
+import CaseStudyItmis from "./components/CaseStudyItmis";
 function App() {
   const [mousePosition, setMousePosition] = useState({
     x: 0,
@@ -70,7 +71,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/home" element={<Homepage />} />
-        <Route path="/project/it-mis" element={<CaseStudy />} />
+        <Route path="/project/it-mis" element={<CaseStudyItmis />} />
+        <Route path="/project/study-ease" element={<CaseStudy />} />
       </Routes>
     </div>
   );

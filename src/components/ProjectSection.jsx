@@ -30,6 +30,7 @@ const ProjectSection = () => {
           "Structured Usability Testing",
         ]}
         content="Short Description of the Project"
+        path="/project/study-ease"
       />
     </div>
   );
