@@ -1,22 +1,26 @@
 .case-study-page {
-  display: flex;
+  display: inline-flex;
   padding: 80px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 120px;
-  background: #0b0c0d;
+  gap: 160px;
 }
 
 .case-study-title {
-  color: #fff;
-  /* Display */
-  font-family: "Clash Display Variable";
-  font-size: 96px;
+  color: #1a1a1a;
+  font-family: Figtree;
+  font-size: 64px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
-
+.case-study-title-img-container {
+  display: flex;
+  width: 1280px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
 .case-study-title-container {
   display: flex;
   flex-direction: column;
@@ -26,15 +30,10 @@
 }
 
 .case-study-img {
-  display: flex;
-  height: 640px;
-  justify-content: center;
-  align-items: center;
+  height: 600px;
   align-self: stretch;
-  border-radius: 24px;
-  background: linear-gradient(180deg, #237aeb 0%, #175099 100%);
-  margin-top: 96px;
-  width: 100%;
+  border-radius: 48px;
+  background: #2278e8;
 }
 .background-section {
   display: flex;
@@ -44,15 +43,12 @@
   align-self: stretch;
 }
 .background-section-title {
-  color: #fff;
-
-  /* Title */
-  font-family: "Clash Display Variable";
+  color: #1a1a1a;
+  font-family: Figtree;
   font-size: 32px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: 0.64px;
 }
 .frame51 {
   display: flex;
@@ -70,18 +66,20 @@
 }
 .medium-text {
   color: #999;
-  /* Body */
-  font-family: "DM Sans";
-  /* font-size: 16px; */
-  /* font-weight: 300; */
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.16px;
 }
 .value-text {
-  color: #fff;
-  font-family: "DM Sans";
+  color: #1a1a1a;
+  font-family: Figtree;
   font-size: 24px;
+  font-style: normal;
   font-weight: 500;
+  line-height: normal;
 }
 .frame50 {
   display: flex;
@@ -103,15 +101,13 @@
   height: 56px;
 }
 .icon-label {
-  color: #fff;
-  /* Body */
-  font-family: "DM Sans";
+  color: #1a1a1a;
+  font-family: Figtree;
   font-size: 16px;
-  font-weight: 300;
+  font-style: normal;
+  font-weight: 400;
   line-height: 24px; /* 150% */
   letter-spacing: 0.16px;
-  font-style: normal;
-  text-decoration: none;
 }
 .frame69 {
   display: flex;
@@ -120,17 +116,31 @@
   align-items: flex-start;
   gap: 12px;
   align-self: stretch;
+  max-width: 720px;
+}
+.app-img-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 64px;
+  align-self: stretch;
+}
+.section-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 80px;
 }
 .background-section-text-content {
-  color: #fff;
-
-  /* Body */
-  font-family: "DM Sans";
+  color: #1a1a1a;
+  font-family: Figtree;
   font-size: 16px;
   font-style: normal;
-  font-weight: 300;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.16px;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: 0.24px;
 }
 .frame84 {
   display: flex;
@@ -146,10 +156,9 @@
   /* background: rgba(255, 255, 255, 0.2); */
 }
 .heading2 {
-  color: #fff;
-
-  /* Heading 2 */
-  font-family: "DM Sans";
+  color: #1a1a1a;
+  text-align: center;
+  font-family: Figtree;
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -171,6 +180,49 @@
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+.case-tile-cont {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.case-tile-1 {
+  display: flex;
+  padding: 24px 24px 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  flex: 1 0 0;
+  align-self: stretch;
+  border-radius: 48px;
+  background: #f2f5f7;
+}
+.case-tile-head-1 {
+  color: #1977ce;
+  font-family: Figtree;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.72px;
+}
+.case-tile-subhead-1 {
+  color: #1a1a1a;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+  letter-spacing: 0.24px;
+}
+.tile-section-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
 }
 .frame112 {
   display: flex;

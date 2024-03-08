@@ -7,6 +7,7 @@ import Testimonial from "../components/Testimonial";
 const Homepage = () => {
   return (
     <div className="home-bg">
+      
       <Navbar />
       <Profile />
       <ProjectSection />

@@ -4,10 +4,7 @@ const ProjectCard = (props) => {
   const navigate = useNavigate();
   return (
     <div className="project-card" onClick={() => navigate(props.path)}>
-      <div
-        className="project-card-img"
-        style={{ backgroundImage: `URL(${props.image})` }}
-      ></div>
+      <img src={props.image} className="project-card-img"></img>
       <div className="project-card-content-side">
         <div className="project-title">{props.title}</div>
         <div className="project-card-content-div">

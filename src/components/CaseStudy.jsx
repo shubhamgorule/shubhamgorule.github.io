@@ -24,53 +24,39 @@ import A41 from "../assets/images/A4 - 1.svg";
 import A42 from "../assets/images/A4 - 2.svg";
 import A43 from "../assets/images/A4 - 3.svg";
 import A44 from "../assets/images/A4 - 4.svg";
+import CaseTile from "./CaseTile";
+import finalApp1 from "../assets/images/Frame 26085527.svg";
+import finalApp2 from "../assets/images/Frame 26085529.svg";
+import ideation from "../assets/images/IMG_6999 1.svg";
+import ideation2 from "../assets/images/Frame 1668.svg";
+import ideation3 from "../assets/images/Frame 16681.svg";
 
 const CaseStudy = () => {
   return (
     <div className="case-study-page">
-      <div className="w-100">
+      <div className="w-100 case-study-title-img-container">
         <div className="case-study-title-container">
-          <div className="case-study-title">Study Ease</div>
+          <div className="case-study-title">Study-Eaze</div>
           <div className="case-study-subtitle">
-            Mobile based app which helps students achieve their academic
-            pursuits
+            Mobile based app which helps students stay productive and achieve
+            their academic ambitions
           </div>
         </div>
         <div className="case-study-img">
-          <img src={studyease} alt="" />
+          {/* <img src={studyease} alt="" /> */}
         </div>
       </div>
       <div className="background-section">
         <div className="w-100 d-flex">
-          <div className="w-50">
+          <div>
             <div className="background-section-title">The Background</div>
             <div className="background-section-text-content">
-              Students
-              <span className="medium-text">
-                {" "}
-                across the globe embark on a journey to
-              </span>{" "}
-              pursue academic interest at
-              <span className="medium-text">
-                {" "}
-                leading educational institutes. This transformative journey is
-                accompanied by unique set of{" "}
-              </span>
-              challenges including cultural adjustments, physical distance{" "}
-              <span className="medium-text"> from homeland and</span> connecting
-              with unknown people{" "}
-              <span className="medium-text">
-                {" "}
-                to name a few. These challenges can often impact the very reason
-                of their journey - The academic pursuit. Recognizing these
-                complexities, we have decided to design an
-              </span>{" "}
-              app to assist students{" "}
-              <span className="medium-text">
-                {" "}
-                in overcoming these multifaceted challenges and
-              </span>{" "}
-              enhance their academic pursuits.
+              After performing initial research, the team found out 76% of
+              international students faced difficulty in managing academic
+              performance, connecting with new students, getting acquainted with
+              new culture, and loneliness, among a few challenges. This
+              investigation was part of an academic project tasked by the
+              university to enhance the productivity of students.
             </div>
           </div>
         </div>
@@ -85,8 +71,9 @@ const CaseStudy = () => {
             <div className="w-100">
               <div className="medium-text">Team</div>
               <div className="value-text">
-                <div>2 Designers</div>
-                <div>4 Developers</div>
+                <div>1 Designer/Researcher</div>
+                <div>1 Designer</div>
+                <div>2 Developers</div>
               </div>
             </div>
             <div className="w-100">
@@ -110,12 +97,6 @@ const CaseStudy = () => {
               </div>
               <div className="frame87">
                 <div className="icon-size">
-                  <Zoom />
-                </div>
-                <div className="icon-label">Zoom</div>
-              </div>
-              <div className="frame87">
-                <div className="icon-size">
                   <Spreadsheet />
                 </div>
                 <div className="icon-label">Sheets</div>
@@ -124,328 +105,188 @@ const CaseStudy = () => {
           </div>
         </div>
       </div>
-      <div className="frame69">
-        <div className="background-section-title">The Challenge</div>
-        <div className="background-section-text-content medium-text">
-          <span className="medium-text">
-            How might we help students achieve their academic pursuits
-          </span>
+      <div className="section-container">
+        <div className="frame69">
+          <div className="background-section-title">The Research</div>
+          <div className="background-section-text-content">
+            The team conducted User Research with 12 International Students and
+            User Observations of 4 International Students.
+          </div>
+        </div>
+        <div className="tile-section-cont">
+          <div className="frame69">
+            <div className="heading2">Key Research Insights</div>
+            <div className="background-section-text-content">
+              Key Research insights were synthesized depending on the amount of
+              students facing the issue and the impact it had on their
+              productivity.
+            </div>
+          </div>
+          <div className="case-tile-cont">
+            <CaseTile
+              title="67%"
+              subtitle="Students faced challenges in setting achievable goals"
+            />
+            <CaseTile
+              title="83%"
+              subtitle="Students avoided connecting with new students due to lack of information about common interest and lack of skill in breaking the ice"
+            />
+            <CaseTile
+              title="67%"
+              subtitle="Students faced issues in searching valuable academic resources apart from syllabus"
+            />
+          </div>
         </div>
       </div>
-      <div className="frame69">
-        <div className="background-section-title">The Solution</div>
-        <div className="background-section-text-content">
-          <span className="medium-text">
-            {" "}
-            Through research and extensive testing we finally designed a mobile
-            app focused on
-          </span>{" "}
-          3 key pillars
+      <div className="tile-section-cont">
+        <div className="frame69">
+          <div className="background-section-title">The Opportunity</div>
+          <div className="background-section-text-content">
+            The insights from research guided the team to focus on following
+            opportunities:
+          </div>
+        </div>
+        <div className="case-tile-cont">
+          <CaseTile
+            title="HMW 1"
+            subtitle="How might we help students in setting achievable academic goals"
+          />
+          <CaseTile
+            title="HMW 2"
+            subtitle="How might we help students in building a sense of community and foster engagement"
+          />
+        </div>
+      </div>
+      <div className="tile-section-cont">
+        <div className="frame69">
+          <div className="heading2">The Solution</div>
+          <div className="background-section-text-content">
+            After the ideation phase, multiple iterations were designed by
+            incorporating the inputs from 2 Expert Usability Tests and 1
+            Structured Usability Test. The final solution was designed
+            considering following key Pillars:
+          </div>
         </div>
         <div className="frame84">
           <img style={{ width: "30%" }} src={goalsetting} alt="" />
           <img style={{ width: "30%" }} src={academicresource} alt="" />
           <img style={{ width: "30%" }} src={senseofcommunity} alt="" />
         </div>
-      </div>
-      <div className="frame69">
-        <div className="background-section-title">The Process</div>
-        <div className="background-section-text-content">
-          <span className="medium-text">A</span> 5 Step iterative design process
-          <span className="medium-text">
-            was selected in which our key focus was on intensive testing
-          </span>
-          <span className="medium-text"> and</span> redesigning
-          <span className="medium-text">
-            {" "}
-            according to insights gained from the testing.
-          </span>
+        <div className="frame69">
+          <div className="background-section-title">Final App</div>
+          <div className="background-section-text-content">
+            The insights from research guided the team to focus on following
+            opportunities:
+          </div>
         </div>
-        <div className="frame60">
-          <img src={theprocess} alt="" className="w-100" />
+        <div className="app-img-cont">
+          <img className="w-100" src={finalApp1} alt="" />
+          <img className="w-100" src={finalApp2} alt="" />
         </div>
       </div>
-      <div className="heading2">
-        <span className="medium-text">Now</span> Lets dive deep
-        <span className="medium-text">
-          {" "}
-          into the process we followed for the final solution
-        </span>
-      </div>
-      <div className="frame62">
-        <div>
-          <div className="frame112">
-            <LargeNumber number={"01"} />
-            <SectionTitle title={" Understand and Define"} />
+      <div className="tile-section-cont">
+        <div className="frame69">
+          <div className="background-section-title">
+            The journey to make goals achievable
           </div>
           <div className="background-section-text-content">
-            <span className="medium-text">
-              Solving the right problem was an essential step. During this phase
-              of the project we conducted user research for
-            </span>{" "}
-            <b>2 personas</b>
-            <span className="medium-text">
-              {" "}
-              and boiled down the insights into
-            </span>{" "}
-            <b>8 key tasks.</b>
-          </div>
-          <div className="background-section-text-content"></div>
-        </div>
-        <div className="frame94">
-          <div className="frame90">
-            <div className="pointer-icon">
-              <Golf />
-            </div>
-            <div className="heading2">Research Goals</div>
-          </div>
-          <div className="d-flex" style={{ gap: "32px" }}>
-            <div class="frame-goals">
-              <div class="text-wrapper">1</div>
-              <p class="div">
-                To identify factors affecting the academic pursuits
-              </p>
-            </div>
-            <div class="frame-goals">
-              <div class="text-wrapper">2</div>
-              <p class="div">
-                To understand how students are handling their challenges
-              </p>
-            </div>
-            <div class="frame-goals">
-              <div class="text-wrapper">3</div>
-              <p class="div">
-                To identify gaps in the current technological solutions
-              </p>
-            </div>
+            After some research and brainstorming the team reached a consensus
+            that the lack of clear objectives is the primary reason behind
+            unattainable goals.
           </div>
         </div>
-        <div className="frame95">
-          <div className="frame90">
-            <div className="pointer-icon">
-              <Usericon />
-            </div>
-            <div className="heading2">User Research Methodologies</div>
-          </div>
-          <div className="frame96">
-            <div className="research-card frame-goals">
-              <div class="text-wrapper">1</div>
-              <div className="heading2">User Interview - 12 Students</div>
-              <div>
-                <span className="medium-text">We performed </span>
-                <span>unstructured User Interview </span>
-                <span className="medium-text">with </span>
-                <span>6 Online students </span>
-                <span className="medium-text">and </span>
-                <span>6 Offline students </span>
-                <span className="medium-text">
-                  to explore various challenge they face and the solution they
-                  are currently adopting.
-                </span>
-              </div>
-            </div>
-            <div className="research-card  frame-goals">
-              <div class="text-wrapper">2</div>
-              <div className="heading2">User Observation - 4 Students</div>
-              <div>
-                <span className="medium-text">
-                  Along with User Interview, User Observation was performed with{" "}
-                </span>
-                <span>2 Online students </span>
-                <span className="medium-text">and </span>
-                <span>2 Offline students </span>
-                <span className="medium-text">o gain </span>
-                <span>insights about their habits. </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="frame95">
-          <div className="frame90">
-            <div className="pointer-icon">
-              <UserId />
-            </div>
-            <div className="heading2">Personas</div>
-          </div>
-          <div className="frame60">
-            <img src={persona1} className="w-50" alt="" />
-            <img src={persona2} className="w-50" alt="" />
-          </div>
-        </div>
-        <div className="frame95">
-          <div className="frame90">
-            <div className="pointer-icon">
-              <Atom />
-            </div>
-            <div className="heading2">Key Insights</div>
-          </div>
-          <div className="">
-            <img src={keyInsights} className="w-100" alt="" />
-          </div>
-        </div>
-        <div className="frame95">
-          <div className="frame90">
-            <div className="pointer-icon">
-              <Task />
-            </div>
-            <div className="heading2">Key Tasks</div>
-          </div>
-          <div className="d-flex w-100">
-            <div className="w-50">
-              <div className="medium-text">Online Student</div>
-              <div>
-                <li>Setting a Goal</li>
-                <li>Tracking a Goal</li>
-                <li>Getting to know and attending event</li>
-                <li>Connecting with friends</li>
-              </div>
-            </div>
-            <div className="w-50">
-              <div className="medium-text">Offline Student</div>
-              <div>
-                <li>Accessing study resources</li>
-                <li>Joining online events and meetings</li>
-                <li>Adding interests and hobbies</li>
-                <li>Connecting with new friends</li>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="heading2">
-        <span className="medium-text">At this point of time</span> we had a
-        clear direction
-        <span className="medium-text"> for our design</span> to begin with!
-      </div>
-      <div className="frame62">
-        <div>
-          <div className="frame112">
-            <LargeNumber number={"02"} />
-            <SectionTitle title={"The First Iteration"} />
-          </div>
-          <div className="background-section-text-content w-50">
-            <span className="medium-text">
-              The insights from research were good enough to
-            </span>{" "}
-            Brainstorm
-            <span className="medium-text">
-              {" "}
-              and develop first iteration in the form of
-            </span>{" "}
-            Mid-Fidelity Wireframes and Prototype.
-            <span className="medium-text">
-              {" "}
-              This step was crucial as we narrowed down the research findings
-              into practical design directions
-            </span>
-          </div>
+        <div className="frame69">
+          <div className="heading2">Ideation</div>
           <div className="background-section-text-content">
-            <div class="frame-brain">
-              <div class="div">
-                <div class="div-2">
-                  <Group />
-                  <div class="text-wrapper">Brainstorming</div>
-                </div>
-                <p class="taking-into-account">
-                  <span class="span">
-                    Taking into account the data gathered from the research, we
-                    brainstormed and voted for features of the app. The result
-                    of brainstorming and voting was an app focused on helping
-                    students achieve their
-                  </span>{" "}
-                  <span class="text-wrapper-2">
-                    Goals, connect with other students, join multiple groups,
-                    attend events, attend study sessions and get academic
-                    resources.
-                  </span>
-                </p>
-              </div>
-              <div class="div-3"></div>
-            </div>
+            Ideation was performed in the form of sketches as it helped the team
+            easily try out different ideas and keep the most effective idea in
+            time efficient way
           </div>
         </div>
-        <div className="frame60">
-          <div className="d-flex gap-3">
-            <div className="w-50">
-              <div className="frame90">
-                <div className="pointer-icon">
-                  <Bulb />
-                </div>
-                <div className="heading2">Ideation</div>
-              </div>
-              <span className="medium-text">
-                This phase was important in exploring multiple ways of
-                approaching the solution.
-              </span>{" "}
-              Crazy 4
-              <span className="medium-text">
-                {" "}
-                method was used to get the creative juices flowing. In the end
-              </span>{" "}
-              12 designs
-              <span className="medium-text">
-                {" "}
-                were developed in the form of
-              </span>{" "}
-              sketches and low fidelity designs.
-            </div>
-            <div className="ideation-imges w-50">
-              <img className="" src={A41} alt="" />
-              <img className="" src={A42} alt="" />
-              <img className="" src={A43} alt="" />
-              <img className="" src={A44} alt="" />
-            </div>
-          </div>
+        <div className="app-img-cont">
+          <img className="w-75 m-auto" src={ideation} alt="" />
         </div>
       </div>
-      <div className="frame62 ">
-        <div>
-          <div className="frame112">
-            <LargeNumber number={"03"} />
-            <SectionTitle title={"Expert Usability Testing"} />
-          </div>
+      <div className="tile-section-cont">
+        <div className="frame69">
+          <div className="heading2">Expert Usability Testing</div>
           <div className="background-section-text-content">
-            5 Step iterative design process was selected where we focused
-            intensively on Testing and redesigning as per insights
+            The project heavily emphasized expert usability testing, seeking
+            objective critiques and facilitating early design changes before
+            transitioning to Structured Usability Testing. Due to time
+            constraints, the team developed mid-fidelity prototypes, balancing
+            the need for detail with the necessity for efficiency.
           </div>
         </div>
-        <div className="frame60"></div>
-      </div>
-      <div className="frame62">
-        <div>
-          <div className="frame112">
-            <LargeNumber number={"04"} />
-            <SectionTitle title={"Structured Usability Testing"} />
-          </div>
+        <div className="case-tile-cont">
+          <CaseTile
+            title="2 Tests"
+            subtitle="2 Expert Usability Tests were performed and 2 iterations of designs were developed"
+          />
+          <CaseTile
+            title="12 issues"
+            subtitle="Key issue were related to goal setting, navigation, iconography and discoverability"
+          />
+          <CaseTile
+            title="10 Changes"
+            subtitle="Changes were finalized based on its impact on the Key tasks"
+          />
+        </div>
+        <div className="frame69">
           <div className="background-section-text-content">
-            5 Step iterative design process was selected where we focused
-            intensively on Testing and redesigning as per insights
+            The initial plan used AI to help clarify students' goals. However,
+            tests showed it wasn't flexible enough for all goal types, mainly
+            because of unclear goals and lack of method awareness. To solve this
+            issue, goals were organized into four categories: Time-bound,
+            Deadline-based, Habit-based, and AI-assisted, improving clarity and
+            awareness.
           </div>
         </div>
-        <div className="frame60"></div>
+        <div className="app-img-cont">
+          <img className="w-100" src={ideation2} alt="" />
+        </div>
       </div>
-      <div className="frame62">
-        <div>
-          <div className="frame112">
-            <LargeNumber number={"05"} />
-            <SectionTitle title={"Final Design"} />
-          </div>
+      <div className="tile-section-cont">
+        <div className="frame69">
+          <div className="heading2">Structured Usability Testing</div>
           <div className="background-section-text-content">
-            5 Step iterative design process was selected where we focused
-            intensively on Testing and redesigning as per insights
+            To maintain cohesiveness in test data, structured usability testing
+            was performed
           </div>
         </div>
-        <div className="frame60"></div>
-      </div>
-      <div className="frame62">
-        <div>
-          <div className="frame112">
-            {" "}
-            <LargeNumber number={"06"} />
-            <SectionTitle title={"Prototype"} />
+        <div className="case-tile-cont">
+          <CaseTile
+            title="1 Test"
+            subtitle="1 Structured Usability Test was performed and 2 iterations of designs were developed"
+          />
+          <CaseTile
+            title="12 users"
+            subtitle="Key issue were related to goal setting, navigation, iconography and discoverability"
+          />
+          <CaseTile
+            title="15 Changes"
+            subtitle="Changes were finalized based on its impact on the Key tasks"
+          />
+        </div>
+        <div className="frame69">
+          <div className="background-section-text-content">
+            The initial idea was based on AI assisting the student to bring
+            clarity of goal. But test suggested that the method was not flexible
+            to include all types of goals. Goals were unattainable due to 2
+            reasons
+            <ol>
+              <li>Lack of clarity of goals</li>
+              <li>Lack of awareness about methods</li>
+            </ol>
+            <br />
+            After analyzing all the types of goals, the goals were divided into
+            4 categories (Time bound, Deadline based, Habit based and AI
+            assisted Goals) which solved the issue of awareness and clarity
           </div>
         </div>
-        <div className="frame60"></div>
+        <div className="app-img-cont">
+          <img className="w-100" src={ideation3} alt="" />
+        </div>
       </div>
     </div>
   );
