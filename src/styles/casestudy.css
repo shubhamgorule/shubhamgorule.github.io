@@ -170,6 +170,14 @@
   font-weight: 500;
   line-height: normal;
 }
+.list-heading{
+  color: #1A1A1A;
+  font-family: Figtree;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal; 
+}
 .frame62 {
   display: flex;
   flex-direction: column;
@@ -207,7 +215,7 @@
 .case-tile-head-1 {
   color: #1977ce;
   font-family: Figtree;
-  font-size: 48px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
@@ -431,4 +439,39 @@
 }
 .ideation-imges > img {
   width: 100%;
+}
+
+.tags {
+  display: flex;
+  padding: 8px 16px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 50px;
+  background: #f2f5f7;
+  color: #4281ff;
+  text-align: center;
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.tag-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 16px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}
+.see-more {
+  color: #1977ce;
+  font-family: Figtree;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.pointer:hover {
+  cursor: pointer;
 }
