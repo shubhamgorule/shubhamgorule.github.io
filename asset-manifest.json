@@ -1,25 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd81d400.css",
-    "main.js": "/static/js/main.41b9ea9f.js",
+    "main.css": "/static/css/main.fe5a410b.css",
+    "main.js": "/static/js/main.8fd6d680.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/profile.svg": "/static/media/profile.21a42a2cdc2cc7ac75cbc35cc2bf91fd.svg",
+    "static/media/Frame 26085527 (1).svg": "/static/media/Frame 26085527 (1).025f0cae1a5154dadef7866490c1af1e.svg",
     "static/media/Frame 26085527.svg": "/static/media/Frame 26085527.d122ef3fe9e7eacfb62142b6e0cd3faa.svg",
+    "static/media/Frame 26085525.svg": "/static/media/Frame 26085525.fc1ae11a175440c6c6b5fae160850521.svg",
+    "static/media/Frame 1668 (2).svg": "/static/media/Frame 1668 (2).695ca35f29ccba7e0692b1b6b7807a2f.svg",
     "static/media/construction.svg": "/static/media/construction.dc22fe7c8a0096bdbbcc.svg",
     "static/media/Frame 26085529.svg": "/static/media/Frame 26085529.20aef3a5371763a29fade606a23d329b.svg",
-    "static/media/IMG_6999 1.svg": "/static/media/IMG_6999 1.a144a7632215a1af1dd67f0efeec85a2.svg",
+    "static/media/Frame 26085528.svg": "/static/media/Frame 26085528.ff4d42b084aae67752c05301a4720068.svg",
     "static/media/IMG_6999 2.svg": "/static/media/IMG_6999 2.226b5ec13f95b00bb5e77b1791d70b02.svg",
     "static/media/Frame 1668.svg": "/static/media/Frame 1668.b1a71998606916e5a0f2705f9faaf58b.svg",
     "static/media/Frame 16681.svg": "/static/media/Frame 16681.e99c68933ddb45366ce5ab3790ad2fd7.svg",
+    "static/media/Persona 3.svg": "/static/media/Persona 3.0304a86e905bb514def03ce63322f313.svg",
+    "static/media/Persona 4.svg": "/static/media/Persona 4.bf875d4fc441aed48506aab1c1f90ac0.svg",
     "static/media/Frame26085534.png": "/static/media/Frame26085534.e4a1ca0cec36d8fcb99b.png",
+    "static/media/Key Insights (1).svg": "/static/media/Key Insights (1).13a3dbf5adafc6cde0c0c64aa24b4677.svg",
     "static/media/DMSans-VariableFont_opsz,wght.ttf": "/static/media/DMSans-VariableFont_opsz,wght.90130db6a4fc53f17a88.ttf",
     "static/media/Frame260855341.png": "/static/media/Frame260855341.07c714cd08eea0f394b6.png",
     "static/media/Frame84.png": "/static/media/Frame84.ca72446b65b62c000d53.png",
     "static/media/Frame83.png": "/static/media/Frame83.21125fca83757a7d77ce.png",
+    "static/media/Findings 1.png": "/static/media/Findings 1.6af5bacb936afa1b0f7a.png",
     "static/media/Frame82.png": "/static/media/Frame82.14562bd3514dd05c39f2.png",
     "static/media/ClashDisplay-Variable.ttf": "/static/media/ClashDisplay-Variable.e7f67b72cbf79f80c9c7.ttf",
     "static/media/img-02111.png": "/static/media/img-02111.eca73e1b41e6a7b5c73e.png",
     "static/media/Figtree-VariableFont_wght.ttf": "/static/media/Figtree-VariableFont_wght.5ecd3f8010e7190b961b.ttf",
+    "static/media/Thematic Analysis 1.png": "/static/media/Thematic Analysis 1.88faaf8ce9ca889bd851.png",
     "static/media/istockphoto-1458606797-1024x1024 1.png": "/static/media/istockphoto-1458606797-1024x1024 1.a8e01a5138b2e3e05181.png",
     "static/media/solar_masks-bold-duotone.svg": "/static/media/solar_masks-bold-duotone.40585197e88e0c34c96535721ebff4db.svg",
     "static/media/Component 48 (4).svg": "/static/media/Component 48 (4).6ad4775db1b454e2b84a8c494eff4e1f.svg",
@@ -40,12 +48,12 @@
     "static/media/solar_golf-bold-duotone.svg": "/static/media/solar_golf-bold-duotone.c6f3d5715e0971e3176a1931a8ac3c6a.svg",
     "static/media/Group.svg": "/static/media/Group.3c727ae348b03e4de76d0378a36e07d9.svg",
     "index.html": "/index.html",
-    "main.fd81d400.css.map": "/static/css/main.fd81d400.css.map",
-    "main.41b9ea9f.js.map": "/static/js/main.41b9ea9f.js.map",
+    "main.fe5a410b.css.map": "/static/css/main.fe5a410b.css.map",
+    "main.8fd6d680.js.map": "/static/js/main.8fd6d680.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd81d400.css",
-    "static/js/main.41b9ea9f.js"
+    "static/css/main.fe5a410b.css",
+    "static/js/main.8fd6d680.js"
   ]
 }
