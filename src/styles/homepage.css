@@ -32,6 +32,7 @@
   align-items: start;
   align-self: stretch;
   gap: 200px;
+  z-index: 2;
 }
 .profile-img {
   width: 200px;

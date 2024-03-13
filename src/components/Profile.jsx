@@ -6,9 +6,15 @@ import { ReactComponent as Proto } from "../assets/icons/Component 48 (2).svg";
 import { ReactComponent as Test } from "../assets/icons/Component 48 (3).svg";
 import { ReactComponent as Interact } from "../assets/icons/Component 48 (4).svg";
 import { ReactComponent as Visual } from "../assets/icons/Component 48 (5).svg";
+import bulb from "../assets/images/istockphoto-1458606797-1024x1024 1.png";
 const Profile = () => {
   return (
     <div className="title-box" id="hero">
+      <img
+        src={bulb}
+        style={{ position: "absolute", top: 0, right: 0, zIndex: 0 }}
+        alt=""
+      />
       <div className="d-flex flex-column gap-5">
         <div className="title">Hey! I'm Shubham Gorule</div>
         <div className="subtitle">
