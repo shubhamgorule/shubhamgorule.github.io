@@ -17,7 +17,7 @@ const ProjectSection = () => {
           "Evaluation",
         ]}
         content="Short Description of the Project"
-        // path="/project/it-mis"
+        path="/project/it-mis"
       />
       <ProjectCard
         image={studyEz}

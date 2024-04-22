@@ -30,8 +30,8 @@ const CaseStudyItmis = () => {
         <div className="case-study-title-container">
           <div className="case-study-title">Redesign of IT-MIS Dashboard</div>
           <div className="case-study-subtitle">
-            Mobile based app which helps students stay productive and achieve
-            their academic ambitions
+            Redesigned the Dashboard to achieve 23% reduction for Time on task
+            and improvement in SUS score from 59 to 87.
           </div>
         </div>
         <div className="case-study-img2">

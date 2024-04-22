@@ -23,28 +23,49 @@ const Profile = () => {
           engaging digital interfaces.
         </div>
       </div>
-      <div className="d-flex m-auto gap-2">
-        <SkillCard
-          title="User Research"
-          icon={<User className="skill-icon" />}
-        />
-        <SkillCard title="Wireframing" icon={<Wire className="skill-icon" />} />
-        <SkillCard
-          title="Prototyping"
-          icon={<Proto className="skill-icon" />}
-        />
-        <SkillCard
-          title="Unit Testing"
-          icon={<Test className="skill-icon" />}
-        />
-        <SkillCard
-          title="Interaction Design"
-          icon={<Interact className="skill-icon" />}
-        />
-        <SkillCard
-          title="Visual Design"
-          icon={<Visual className="skill-icon" />}
-        />
+      <div>
+        <div className="section-title">Skills that I'm good at include... </div>
+        <div className="d-flex m-auto gap-2">
+          <SkillCard
+            title="User Research"
+            icon={<User className="skill-icon" />}
+          />
+          <SkillCard
+            title="Wireframing"
+            icon={<Wire className="skill-icon" />}
+          />
+          <SkillCard
+            title="Prototyping"
+            icon={<Proto className="skill-icon" />}
+          />
+          <SkillCard
+            title="Unit Testing"
+            icon={<Test className="skill-icon" />}
+          />
+          <SkillCard
+            title="Interaction Design"
+            icon={<Interact className="skill-icon" />}
+          />
+          <SkillCard
+            title="Visual Design"
+            icon={<Visual className="skill-icon" />}
+          />
+        </div>
+      </div>
+      <div>
+        <div className="section-title">Little bit more about me...</div>
+        <div className="d-flex">
+          <div className="about-description">
+            Photography has been my passion for a decade, and love for biking is
+            adding exhilarating new perspectives to my creative journey.
+          </div>
+          <div>Carousel</div>
+        </div>
+        <div className="about-description">
+          Despite my engineering roots, I excel in merging creativity with
+          practicality, striking a perfect balance that drives innovative
+          outcomes.
+        </div>
       </div>
     </div>
   );
