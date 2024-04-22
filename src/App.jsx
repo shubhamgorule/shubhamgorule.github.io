@@ -13,6 +13,8 @@ import CaseStudy from "./components/CaseStudy";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import profile from "./assets/profile.svg";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+
 import CaseStudyItmis from "./components/CaseStudyItmis";
 function App() {
   const [mousePosition, setMousePosition] = useState({
